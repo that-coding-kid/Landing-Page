@@ -131,10 +131,20 @@ a{
 }
 .quote-block{
     display: flex;
-    background-color: grey;
-    padding: 80px;
-    justify-content: center;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 48px;
     align-items: center;
+    gap:24px;
+    font-size:64px;
+    font-style: oblique;
+    text-align: center;
+
+}
+#quote-author{
+    margin-left: auto;
+    font-size: 36px;
+    font-weight: bold;
 }
 .title{
     font-size: 48px;
