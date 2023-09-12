@@ -4,9 +4,8 @@ body{
     margin:0;
 
 }
-*{
-    overflow-x: hidden;
-}
+
+
 .header, .footer{
     margin:0;
     display: flex;
@@ -55,9 +54,11 @@ a{
     height: 100% ;
 }
 .overlay{
-
+    display: flex;
     text-align: center;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 .overlay-box{
     display: flex;
@@ -65,16 +66,33 @@ a{
     background-color: black;
     align-items: center;
     justify-content: center;
-    gap:8px;
-    top:25%;
-    left: 25%;    
+    gap:8px;   
     width: 600px;
     height: 300px;
     border-radius: 25px;
     opacity: 0.8;
+    box-shadow: 6px 6px 3px lightslategray;
+    transition: all .2s ease-in-out;
+    &:hover{
+        transform: scale(1.2);
+    }
+    overflow-x: hidden;
 }
 .text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     color: aliceblue;
+}
+.intro{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 72px;
+    color:antiquewhite;
+
+}
+.mid-block{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
