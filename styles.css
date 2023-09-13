@@ -83,6 +83,9 @@ a{
     font-size: 24px;
     color: aliceblue;
     font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .intro{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -104,6 +107,7 @@ a{
     
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     gap:30px;
 }
 .cards{
@@ -135,19 +139,58 @@ a{
     background-color: lightgray;
     padding: 48px;
     align-items: center;
-    gap:24px;
     font-size:64px;
     font-style: oblique;
     text-align: center;
+    flex-basis: 200px;
 
 }
 #quote-author{
     margin-left: auto;
     font-size: 36px;
     font-weight: bold;
+    margin-top: -60px;
 }
 .title{
     font-size: 48px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #8a0303;
+}
+.button{
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    flex-basis: 30px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 15px;
+    transition: all .5s ease-in-out;
+    &:hover{
+        transform: scale(1.05);
+    }
+    
+}
+.projects{
+    display: flex;
+}
+.manga{
+    display: flex;
+    background-color: navy;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center
+
+}
+.more{
+    display: flex;
+    background-color: black;
+    font-size: 90px;
+    flex-basis: 200px;
+    padding: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: azure;
+    align-items: center;
 }
