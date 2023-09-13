@@ -1,6 +1,6 @@
 # Landing-Page
 
-# Welcome to the World of Chainsawman!
+## Welcome to the World of Chainsawman!
 
 ## Introduction
 
@@ -32,4 +32,3 @@ Throughout the development of this landing page, I have honed a range of skills 
 
 The Chainsawman landing page is not just a showcase of my web development skills; it is a tribute to the captivating world of Chainsawman. Through the creative use of HTML and CSS, I have crafted an engaging and visually stunning experience for visitors. I invite you to explore this landing page and immerse yourself in the thrilling universe of Chainsawman while appreciating the technical craftsmanship that went into its creation. Let the journey begin!
 
-Written by Chatsonic
